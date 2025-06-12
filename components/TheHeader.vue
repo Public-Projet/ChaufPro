@@ -6,7 +6,7 @@
         <div>
           <NuxtLink to="/" class="flex items-center flex-shrink-0 hover:scale-105 transition-transform duration-200">
             <img src="/img/logo.png" alt="Logo" class="h-8 mr-2" />
-            <h1 class="text-2xl font-bold text-primary">chaufeurPro</h1>
+            <h1 class="text-2xl font-bold text-primary">ChauffeurPro</h1>
           </NuxtLink>
         </div>
 

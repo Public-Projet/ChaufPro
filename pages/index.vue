@@ -122,6 +122,6 @@ const randomServices = computed(() => {
 })
 
 useHead({
-  title: 'chaufeurPro - Votre partenaire de mobilité professionnelle'
+  title: 'ChauffeurPro - Votre partenaire de mobilité professionnelle'
 })
 </script>

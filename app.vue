@@ -8,6 +8,6 @@
 
 <script setup lang="ts">
 useHead({
-  titleTemplate: '%s | chaufeurPro',
+  titleTemplate: '%s | ChauffeurPro',
 })
 </script>

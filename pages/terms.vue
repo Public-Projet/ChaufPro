@@ -14,12 +14,12 @@
         <div class="prose max-w-none">
           <h2 class="text-2xl font-bold text-gray-800 mb-6">1. Acceptation des conditions</h2>
           <p>
-            En utilisant les services de chaufeurPro, vous acceptez sans réserve les présentes Conditions Générales d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.
+            En utilisant les services de ChauffeurPro, vous acceptez sans réserve les présentes Conditions Générales d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.
           </p>
 
           <h2 class="text-2xl font-bold text-gray-800 mt-10 mb-6">2. Description des services</h2>
           <p>
-            chaufeurPro propose une plateforme de mise en relation entre clients et chauffeurs professionnels pour des services de transport privé. Nos services incluent mais ne sont pas limités à :
+            ChauffeurPro propose une plateforme de mise en relation entre clients et chauffeurs professionnels pour des services de transport privé. Nos services incluent mais ne sont pas limités à :
           </p>
           <ul class="list-disc pl-6 mt-4 space-y-2">
             <li>Services de chauffeur ponctuels</li>
@@ -61,7 +61,7 @@
 
           <h2 class="text-2xl font-bold text-gray-800 mt-10 mb-6">6. Responsabilités</h2>
           <p>
-            chaufeurPro décline toute responsabilité pour :
+            ChauffeurPro décline toute responsabilité pour :
           </p>
           <ul class="list-disc pl-6 mt-4 space-y-2">
             <li>Les retards dus à des circonstances indépendantes de notre volonté (embouteillages, conditions météo, etc.)</li>
