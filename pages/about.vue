@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <header class="relative bg-primary text-white py-24">
       <div class="container mx-auto px-4 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">À propos de ChaufPro</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">À propos de chaufeurPro</h1>
         <p class="text-xl max-w-3xl mx-auto">
           Votre partenaire de confiance pour des solutions de mobilité professionnelle haut de gamme.
         </p>
@@ -20,7 +20,7 @@
               <h2 class="text-3xl font-bold text-gray-800 mb-6">Notre mission</h2>
               <div class="prose text-gray-600 max-w-none">
                 <p>
-                  ChaufPro est une plateforme innovante de mise à disposition de chauffeurs professionnels et standards,
+                  chaufeurPro est une plateforme innovante de mise à disposition de chauffeurs professionnels et standards,
                   destinée aux entreprises, agences et particuliers. Nous offrons un accès rapide, fiable et digitalisé
                   à des chauffeurs
                   qualifiés, pour des besoins ponctuels ou réguliers.
@@ -41,7 +41,7 @@
             <div class="lg:w-1/2">
               <img
                 src="https://img.freepik.com/photos-gratuite/chauffeur-uber-elegant-donnant-taxi_23-2149241800.jpg?ga=GA1.1.54047769.1748811830&semt=ais_items_boosted&w=740"
-                alt="Équipe ChaufPro" class="rounded-2xl shadow-xl w-full h-auto">
+                alt="chaufeurPro" class="rounded-2xl shadow-xl w-full h-auto">
             </div>
           </div>
         </section>
@@ -71,14 +71,7 @@
 import { values } from '@/data/values';
 
 useHead({
-  title: 'À propos | ChaufPro - Votre partenaire mobilité professionnelle',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: 'Découvrez ChaufPro, votre service de chauffeurs professionnels. Notre histoire, notre mission et notre équipe dédiée à votre mobilité.'
-    }
-  ]
+  title: 'À propos',
 });
 </script>
 

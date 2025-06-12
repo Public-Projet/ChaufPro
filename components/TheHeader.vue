@@ -5,8 +5,8 @@
         <!-- Logo -->
         <div>
           <NuxtLink to="/" class="flex items-center flex-shrink-0 hover:scale-105 transition-transform duration-200">
-            <img src="/img/logo.png" alt="ChaufPro Logo" class="h-8 mr-2" />
-            <h1 class="text-2xl font-bold text-primary">ChaufPro</h1>
+            <img src="/img/logo.png" alt="Logo" class="h-8 mr-2" />
+            <h1 class="text-2xl font-bold text-primary">chaufeurPro</h1>
           </NuxtLink>
         </div>
 

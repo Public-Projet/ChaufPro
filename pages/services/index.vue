@@ -31,7 +31,7 @@
       </div>
     </section>
 
-    <section class="py-16 bg-pmrDark text-white">
+    <section class="py-16 bg-secondary text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold mb-6">Un besoin spécifique ?</h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto">
@@ -40,11 +40,11 @@
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <NuxtLink to="/demander-devis"
-            class="bg-white text-pmrDark hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition duration-300">
+            class="bg-white text-secondary hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition duration-300">
             Demander un devis
           </NuxtLink>
           <NuxtLink to="/contact"
-            class="border-2 border-white text-white hover:bg-white hover:text-pmrDark px-8 py-3 rounded-lg font-semibold transition duration-300">
+            class="border-2 border-white text-white hover:bg-white hover:text-secondary px-8 py-3 rounded-lg font-semibold transition duration-300">
             Nous contacter
           </NuxtLink>
         </div>
@@ -54,19 +54,9 @@
 </template>
 
 <script setup>
-import { services } from '@/data/services'; // Assurez-vous que ce chemin est correct et contient TOUS vos services
+import { services } from '@/data/services';
 
 useHead({
-  title: 'Tous nos services - ChaufPro',
-  meta: [
-    {
-      name: 'description',
-      content: 'Découvrez la gamme complète des services de chauffeurs professionnels offerts par ChaufPro pour les entreprises : ponctuel, navette, VIP, flotte externalisée et plus encore.'
-    },
-    {
-      name: 'keywords',
-      content: 'tous les services, chauffeurs entreprises, mobilité B2B, transport professionnel, solutions de transport'
-    }
-  ]
+  title: 'Tous nos services',
 })
 </script>

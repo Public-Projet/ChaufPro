@@ -168,7 +168,7 @@
 
             <div class="flex items-center justify-center">
               <button type="submit"
-                class="bg-primary hover:bg-pmrDark text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-300 ease-in-out">
+                class="bg-primary hover:bg-secondary text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:shadow-outline transition duration-300 ease-in-out">
                 Envoyer ma demande de devis
               </button>
             </div>
@@ -250,13 +250,6 @@ const submitForm = () => {
 
 // SEO
 useHead(() => ({
-  title: 'Demander un Devis - ChaufPro',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: 'Obtenez un devis personnalisé et rapide pour vos services de chauffeur professionnel avec ChaufPro.'
-    }
-  ]
+  title: 'Demander un devi',
 }));
 </script>

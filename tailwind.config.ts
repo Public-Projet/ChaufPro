@@ -11,14 +11,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0400f0',
-        pmrDark: '#0300BD',
-        secondary: '#fcd34d',
-        accent: '#3b82f6'
+        primary: '#2bcfd8',
+        secondary: '#0c8e95',
+        accent: '#b9f9fc'
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        body: ['"zain', 'sans-serif'],
         heading: ['Poppins', 'sans-serif']
       },
       animation: {

@@ -78,7 +78,7 @@
       </div>
     </section>
 
-    <section class="py-16 bg-pmrDark text-white text-center">
+    <section class="py-16 bg-secondary text-white text-center">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">Une question ?</h2>
         <p class="text-lg mb-8 max-w-2xl mx-auto">
@@ -87,11 +87,11 @@
         </p>
         <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a href="tel:+2290166672622"
-            class="bg-white text-pmrDark hover:bg-gray-100 font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
+            class="bg-white text-secondary hover:bg-gray-100 font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
             Appelez-nous
           </a>
           <a href="mailto:marciasmars@gmail.com"
-            class="bg-transparent border-2 border-white hover:bg-white hover:text-pmrDark text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
+            class="bg-transparent border-2 border-white hover:bg-white hover:text-secondary text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
             Envoyez un email
           </a>
         </div>
@@ -105,13 +105,6 @@ import { IconMail, IconPhone, IconMap } from '@tabler/icons-vue';
 
 // SEO
 useHead(() => ({
-  title: 'Contactez-nous - ChaufPro',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: 'Contactez ChaufPro par email, téléphone ou visitez notre bureau à Cotonou. Découvrez nos horaires d\'ouverture.'
-    }
-  ]
+  title: 'Contactez-nous',
 }));
 </script>

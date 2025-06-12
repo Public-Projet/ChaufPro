@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4">
       <div class="grid md:grid-cols-6 gap-8">
         <div class="lg:col-span-2">
-          <h3 class="text-xl font-semibold text-primary mb-4">ChaufPro</h3>
+          <h3 class="text-xl font-semibold text-primary mb-4">chaufeurPro</h3>
           <p class="text-gray-400">
             Votre partenaire de mobilité professionnelle. Des chauffeurs qualifiés pour vos besoins professionnels.
           </p>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
-        <p>&copy; {{ new Date().getFullYear() }} ChaufPro. Tous droits réservés.</p>
+        <p>&copy; {{ new Date().getFullYear() }} chaufeurPro. Tous droits réservés.</p>
       </div>
     </div>
   </footer>

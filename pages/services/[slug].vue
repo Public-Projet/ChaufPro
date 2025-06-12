@@ -29,7 +29,7 @@
           </ul>
 
           <div class="mt-8 text-center md:text-left">
-            <NuxtLink :to="`/demander-devis?service=${service.slug}`" class="inline-block bg-primary hover:bg-pmrDark text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
+            <NuxtLink :to="`/demander-devis?service=${service.slug}`" class="inline-block bg-primary hover:bg-secondary text-white font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out">
               {{ service.callToAction }}
             </NuxtLink>
           </div>
@@ -83,13 +83,6 @@ const service = computed(() => {
 // SEO
 useHead(() => ({
   title: service.value ? `${service.value.title}` : 'Service non trouvé',
-  meta: [
-    {
-      hid: 'description',
-      name: 'description',
-      content: service.value ? service.value.tagline : 'Page de détails d\'un service ChaufPro.'
-    }
-  ]
 }));
 </script>
 

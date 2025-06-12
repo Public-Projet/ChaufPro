@@ -38,11 +38,13 @@
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div v-for="(value, index) in values" :key="index"
-            class="bg-white rounded-lg shadow-md p-8 text-center border-t-4 border-primary hover:shadow-lg hover:border-secondary transition">
+            class="group bg-white rounded-lg shadow-md p-8 text-center border-t-4 border-primary hover:shadow-lg hover:border-secondary transition-all duration-300">
             <div class="flex justify-center items-center mb-4">
-              <component :is="value.icon" class="w-12 h-12 text-primary" />
+              <component :is="value.icon"
+                class="w-12 h-12 text-primary group-hover:text-secondary transition-colors duration-300" />
             </div>
-            <h3 class="text-xl font-semibold mb-4">{{ value.title }}</h3>
+            <h3 class="text-xl font-semibold mb-4 group-hover:text-secondary transition-colors duration-300">{{
+              value.title }}</h3>
             <p> {{ value.description }} </p>
           </div>
         </div>
@@ -67,7 +69,8 @@
               <p class="mb-4">
                 {{ service.description.slice(0, 150) }}...
               </p>
-              <NuxtLink :to="`/services/${service.slug}`" class="flex items-center text-primary hover:underline font-medium">
+              <NuxtLink :to="`/services/${service.slug}`"
+                class="flex items-center text-primary hover:underline font-medium">
                 En savoir plus
                 <IconArrowRight class="ml-2 w-5 h-5" />
               </NuxtLink>
@@ -76,7 +79,7 @@
         </div>
 
         <div class="text-center">
-          <NuxtLink to="/services" 
+          <NuxtLink to="/services"
             class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary-dark transition-colors duration-300">
             <IconPlus class="mr-2 w-5 h-5" />
             Voir tous nos services
@@ -86,7 +89,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-pmrDark text-white">
+    <section class="py-16 bg-secondary text-white">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold mb-6">Prêt à simplifier votre mobilité professionnelle ?</h2>
         <p class="text-xl mb-8 max-w-3xl mx-auto">
@@ -94,11 +97,11 @@
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <NuxtLink to="/demander-devis"
-            class="bg-white text-pmrDark hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition duration-300">
+            class="bg-white text-secondary hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition duration-300">
             Demander un devis
           </NuxtLink>
           <NuxtLink to="/contact"
-            class="border-2 border-white text-white hover:bg-white hover:text-pmrDark px-8 py-3 rounded-lg font-semibold transition duration-300">
+            class="border-2 border-white text-white hover:bg-white hover:text-secondary px-8 py-3 rounded-lg font-semibold transition duration-300">
             Nous contacter
           </NuxtLink>
         </div>
@@ -119,6 +122,6 @@ const randomServices = computed(() => {
 })
 
 useHead({
-  title: 'ChaufPro - Votre partenaire de mobilité professionnelle'
+  title: 'chaufeurPro - Votre partenaire de mobilité professionnelle'
 })
 </script>
