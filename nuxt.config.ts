@@ -16,17 +16,17 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'ChaufPro - Votre partenaire de mobilité professionnelle',
+      title: 'chaufeurPro - Votre partenaire de mobilité professionnelle',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Nous mettons à votre disposition des chauffeurs professionnels pour répondre aux besoins de mobilité de votre entreprise.' },
         { name: 'author', content: 'Mirobex' },
         { name: 'theme-color', content: '#0400f0' },
-        { name: 'keywords', content: 'Chauffeur, chaufPro, Cotonou, marché béninois, entreprises, expansion, Afrique' },
+        { name: 'keywords', content: 'Chauffeur, chaufeurPro, Cotonou, marché béninois, entreprises, expansion, Afrique' },
 
         // Open Graph (Facebook, LinkedIn)
-        { property: 'og:title', content: 'ChaufPro - Votre partenaire de mobilité professionnelle' },
+        { property: 'og:title', content: 'chaufeurPro - Votre partenaire de mobilité professionnelle' },
         { property: 'og:description', content: 'Nous mettons à votre disposition des chauffeurs professionnels pour répondre aux besoins de mobilité de votre entreprise.' },
         { property: 'og:image', content: 'https://raw.githubusercontent.com/Repo-Files/ChaufPro/refs/heads/main/img/seo.png' },
         { property: 'og:url', content: 'https://mirobex.bj' },
@@ -35,13 +35,13 @@ export default defineNuxtConfig({
 
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'ChaufPro - Votre partenaire de mobilité professionnelle' },
+        { name: 'twitter:title', content: 'chaufeurPro - Votre partenaire de mobilité professionnelle' },
         { name: 'twitter:description', content: 'Nous mettons à votre disposition des chauffeurs professionnels pour répondre aux besoins de mobilité de votre entreprise.' },
         { name: 'twitter:image', content: 'https://raw.githubusercontent.com/Repo-Files/ChaufPro/refs/heads/main/img/seo.png' },
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://chaufpro.bj' }
+        { rel: 'canonical', href: 'https://chaufeurPro.bj' }
       ]
     }
   },
